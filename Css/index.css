@@ -1,0 +1,94 @@
+    * {
+        box-sizing: border-box;
+    }
+    /*Responsive*/
+    
+    .card-hover:hover {
+        border: 2px solid black;
+        cursor: pointer;
+        transform: scale(0.99);
+        transition: 0.5s;
+    }
+    
+    .header {
+        color: black;
+    }
+    
+    .header:hover {
+        color: rgb(46, 44, 44);
+    }
+    
+    .indicators {
+        border-radius: 70%;
+    }
+    
+    .center-Image {
+        margin: 0 auto;
+        width: 180px;
+        height: 180px;
+    }
+    
+    .wrap {
+        overflow: hidden;
+    }
+    
+    .wrap-button {
+        overflow: hidden;
+    }
+    
+    .wrap-button .btn-load {
+        color: black;
+        border: 0.5px solid black;
+        padding: 5px 30px 5px 30px;
+        border-radius: 10px;
+    }
+    
+    .wrap-button .btn-load:hover {
+        background-color: #E6E6FA;
+    }
+    
+    .wrap .box-hidden,
+    .wrap .box-hidden1,
+    .wrap .box-hidden2,
+    .wrap .box-hidden3 {
+        display: none;
+    }
+    
+    .wrap .box {
+        position: relative;
+        float: left;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(53, 52, 51, 0.863);
+    }
+    
+    .overlay .wrap-overlay .btn-overlay {
+        background-color: black;
+        opacity: 1;
+        color: white;
+        font-weight: 400;
+    }
+    
+    .overlay .wrap-overlay .btn-overlay:hover {
+        background-color: rgb(49, 48, 48);
+        color: cornsilk;
+    }
+    
+    .overlay .wrap-overlay {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .wrap .box:hover .overlay {
+        opacity: 1;
+    }

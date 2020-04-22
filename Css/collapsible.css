@@ -1,0 +1,36 @@
+ .collapse-input {
+     width: 100px;
+     font-size: 13px;
+     border-radius: 10px;
+     padding: 5px;
+     background-color: rgb(231, 225, 225);
+     border: none;
+ }
+ 
+ .collapsible:after {
+     content: '\02795';
+     /* Unicode character for "plus" sign (+) */
+     font-size: 13px;
+     color: white;
+     float: right;
+     margin-left: 5px;
+     transition: 0.7s;
+ }
+ 
+ .active-collapse:after {
+     content: "\2796";
+     /* Unicode character for "minus" sign (-) */
+ }
+ 
+ .vertical-menu a {
+     color: black;
+     display: block;
+     padding: 12px;
+     text-decoration: none;
+ }
+ 
+ .vertical-menu a:hover {
+     background-color: #ccc;
+     text-decoration: none;
+     color: black;
+ }

@@ -1,0 +1,48 @@
+#label {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.frm-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.frm-group input,
+textarea {
+    border-radius: 5px;
+    width: 70%;
+    padding: 5px;
+    border: 0.5px solid #828282;
+}
+
+#submit {
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.frm-group label {
+    width: 25%;
+}
+
+.frm-group-changPW {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 30%;
+}
+
+.frm-group-changPW input {
+    font-size: 20px;
+}
+
+#form {
+    padding: 10px;
+    max-width: 800px;
+}
+
+.wrap {
+    max-width: 500px;
+}
